@@ -1,0 +1,28 @@
+
+int ledpin = 12;
+int interruptPin= 2;
+int counter = 0; // sets counter equal to zero
+
+
+void setup() {
+
+	pinMode(ledpin, OUTPUT);
+	pinMode(interruptPin, INPUT_PULLUP); // makes interruptPin1 state 
+	attachInterrupt(digitalPinToInterrupt(1), on, RISING); // when interruptPin1 goes from low to high the LED turns on
+	attachInterrupt(digitalPinToInterrupt(0), off, FALLING); // when interruptPin goes from high 
+	Serial.begin(9600); // begins code
+}
+
+void loop() {}
+
+void on() {
+
+	digitalWrite(ledpin, HIGH); // light is on
+	Serial.println(counter++); // counter goes up by 1
+}
+
+void off() {
+
+	digitalWrite(ledpin, LOW);
+}
+
