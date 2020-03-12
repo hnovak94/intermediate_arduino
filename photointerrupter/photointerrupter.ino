@@ -9,7 +9,7 @@ void setup() {
 	pinMode(ledpin, OUTPUT);
 	pinMode(interruptPin, INPUT_PULLUP); // makes interruptPin state 1
 	attachInterrupt(digitalPinToInterrupt(2), on, RISING); // when interruptPin1 goes from low to high the LED turns on
-	attachInterrupt(digitalPinToInterrupt(3), off, FALLING); // when interruptPin goes from high 
+	attachInterrupt(digitalPinToInterrupt(3), off, FALLING); // when interruptPin goes from high
 	Serial.begin(9600); // begins code
 }
 
