@@ -1,3 +1,6 @@
+// Harriet Novak
+// LED Blink Revisited
+// Goal: Refresher on how to blink an LED, and get the LED to fade and show fade pattern on serial moniter
 
 int blink = 9;
 int analog = 9;
