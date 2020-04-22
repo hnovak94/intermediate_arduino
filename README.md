@@ -9,7 +9,7 @@ This assignment was a refresher on how to blink an LED using an Arduino, and als
 The main issue with this assignment is just remembering what you did in the previous year. Looking back at old code can serve as a refresher.
 
 ### Wiring
-![wiring diagram](http://wiki.chssigma.com/images/e/e8/Fritzing_LED_fade.PNG)
+<img src="http://wiki.chssigma.com/images/e/e8/Fritzing_LED_fade.PNG" width="300">
 Credit: Imogen A. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Imogen%27s_Engineering_2_Notebook#Wiring_.26_Pictures)
 
 ## Hello LCD
@@ -19,7 +19,7 @@ This assignment I learned how to use and LCD screen. I used an LCD screen and an
 I also used wires in the beginning, instead of an LCD screen with male leads. Cutting all the wires evenly was a Sisyphean task and ended up being useless. The hardest part about this assignment was the wiring. Be very careful when wiring, because that can make a relatively simple assignment difficult. 
 
 ### Wiring
-![wiring diagram](http://wiki.chssigma.com/images/e/e0/Lcdcap1.PNG)
+<img src="http://wiki.chssigma.com/images/e/e0/Lcdcap1.PNG" width="500">
 Credit: Paul B. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Paul%27s_Engineering_2_Notebook#Wiring_and_Pictures)
 
 ## LCD Backpack 
@@ -29,7 +29,7 @@ This assignment I learned how to use a backpack. I used an LCD screen, a backpac
 A problem I had with this assignment was that the number shown on the LCD screen was for microseconds passed, not the number of clicks. Instead of just saying buttonState == HIGH, one of the requirements for the if statement has to be "previousbuttonState == LOW". You need two variables. Another big problem I had was that my button wasn't pushed in all the way; this problem cost me a couple days. If there's a problem and you're not sure what it is, it's a good idea to check your wiring. 
 
 ### Wiring
-![wiring diagram](http://wiki.chssigma.com/images/5/5d/Capswitch%601.PNG)
+<img src="http://wiki.chssigma.com/images/5/5d/Capswitch%601.PNG" width="500">
 Credit: Paul B. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Paul%27s_Engineering_2_Notebook#Wiring_and_Pictures)
 
 ## Photointerrupter
@@ -41,5 +41,5 @@ I had some trouble figuring out the interrupt pins and the attachInterrupt. I di
 
 ### Wiring
 
-![fritzing diagram](https://github.com/hnovak94/intermediate_arduino/blob/master/media/ph.fzz.JPG?raw=true)
+<img src="https://github.com/hnovak94/intermediate_arduino/blob/master/media/ph.fzz.JPG?raw=true" width="500">
 
